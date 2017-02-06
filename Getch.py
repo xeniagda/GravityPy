@@ -52,11 +52,11 @@ def start():
 
 if __name__ == "__main__":
     start()
-    print "\033[2J"
+    print("\033[2J")
     i = 0
     while True:
             i += 1
-            print "\033[" + str(i) + ";0H" + str(i), keyQueue
+            print("\033[" + str(i) + ";0H" + str(i), keyQueue)
             time.sleep(0.1)
 
 
